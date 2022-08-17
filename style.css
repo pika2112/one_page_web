@@ -1,0 +1,143 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #095992;
+    display: flex;
+    padding: 10px 0px 10px 10px;
+    color:#F9FAF8
+
+
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo a {
+    display: flex;
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+}
+
+.logo img {
+    width: 44px;
+    height: 44px;
+    margin-right: auto;
+    display: flex;
+}
+
+.header-link {
+    display: flex;
+    color:#F9FAF8;
+    margin-left: auto;
+    padding: 0px 10px 0px 0px;
+    align-items: center;
+
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 12px 12px 12px 5px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.consoles {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    padding-right: 30px;
+}
+
+.hero-caption {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+p {
+    color:#E5E7EB;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+    padding-left: 60px;
+}
+
+button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#DF0024, #F3C300 45%,#00AC9F, #266DB4);
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #1f2937;
+  font-weight: bolder;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  max-width: 25%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+button :active,
+button :hover {
+  outline: 0;
+}
+
+button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+button :hover span {
+  background: none;
+}
+
