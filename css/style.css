@@ -91,8 +91,11 @@ h1{
 
 p {
     color:#E5E7EB;
-    font-size: 18px;
-    margin-top: 5px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .hero-image img {
@@ -182,6 +185,36 @@ button {
 }
 
 .sign-up {
-    background-color: #F9FAF8;
     display: flex;
+    background-color: #095992;
+    align-items: center;
+    margin: 40px 200px;
+    border: 2px solid #095992;
+    border-radius: 18px;
+    text-align: center
 }
+
+.sign-up h1 {
+    color: #E5E7EB;
+}
+
+.sign-up-box {
+    padding-left: 20px;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
+.sign-up-button {
+    padding-left: 400px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 10px;
+    text-align: center;
+}
+
